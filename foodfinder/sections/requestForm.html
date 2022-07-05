@@ -1,0 +1,32 @@
+<!--
+Template for the request page right panel.
+-->
+<!--Section heading-->
+<h3 class="text-center" id="requestFormHeading">Request</h3>
+
+<!--Form for responding to requests-->
+<form id="requestForm" method="post" action="./api/requests.php">
+
+    <!--User ID-->
+    <div class="form-group">
+        <input class="id" id="requestID" name="requestID" readonly hidden>
+    </div>
+
+    <!--Email address-->
+    <div class="form-group">
+        <input class="form-control-plaintext text-center" id="requestEmail" type="email" name="requestEmail" readonly>
+    </div>
+
+    <!--Request reason-->
+    <div class="form-group">
+        <textarea class="form-control" id="requestReason" readonly></textarea>
+    </div>
+
+    <!--Response buttons-->
+    <div class="form-group">
+        <div class="text-center">
+            <button class="btn btn-primary" id="requestAcceptButton" type="submit" value="Accept" name="accept">Accept</button>
+            <button class="btn btn-danger" id="requestDeclineButton" type="submit" value="Decline" name="decline">Decline</button>
+        </div>
+    </div>
+</form>

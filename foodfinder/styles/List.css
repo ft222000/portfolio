@@ -1,0 +1,12 @@
+.selected-row{
+    background-color: rgba(0.8, 1.0, 0.5, 0.3) !important;
+}
+
+#search-bar{
+    width: 70%;
+}
+
+.w-15{
+    width: 15%;
+}
+

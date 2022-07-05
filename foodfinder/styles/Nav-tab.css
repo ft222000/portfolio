@@ -1,0 +1,10 @@
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav-tabs > li a {
+    background-color: #fff;
+    color: #000;
+}
